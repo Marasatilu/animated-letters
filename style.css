@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,900;1,100;1,400&display=swap');
+
+
+
 body {
     background: rgb(1,5,23);
     background: radial-gradient(circle, rgba(1,5,23,1) 48%, rgba(8,3,32,1) 74%, rgba(14,5,40,1) 90%, rgba(27,4,62,1) 100%);
@@ -26,6 +30,31 @@ h1:hover{
     cursor: pointer;
 
 }
+
+
+.waviy {
+    position: relative;
+    -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+    font-size: 60px;
+  }
+  .waviy span {
+    font-family: 'Roboto';
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    animation: waviy 1s infinite;
+    animation-delay: calc(.1s * var(--i));
+    
+  }
+  @keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
 
 
 
@@ -58,7 +87,7 @@ h1:hover{
 
     /* Hello world*/
     .helloWorld{
-
+ font-family: roboto;
 
     }
 
@@ -74,10 +103,15 @@ h1:hover{
     /* Graphic design is my passion*/
     .graphicDesign{
         font-weight: 400;
-
+        background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+        color: transparent;
+        background-clip: text;
+         -webkit-background-clip: text;
     }
 
-
+    .graphicDesign:hover{
+        color: rgb(255, 170, 0)
+    }
 
 
 
