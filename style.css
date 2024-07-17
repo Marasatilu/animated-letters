@@ -9,6 +9,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    margin: 0;
 }
 
 /*h1 styles*/
@@ -26,7 +27,58 @@ h1:hover{
 
 }
 
+
+
 /* Paragraph Styles*/
+
+.paragraph{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    
+
+    div{
+        margin: 2em;
+    }
+}
+
+
+.helloWorld, 
+.programmer,
+.graphicDesign {
+    display: flex;
+    flex-direction: column;   
+    text-align: left;
+    font-weight: 100;
+    font-style: italic;
+}
+
+
+    /* Hello world*/
+    .helloWorld{
+
+
+    }
+
+
+    /* Programmer*/
+    .programmer{
+    font-style: normal;
+ 
+    }
+
+
+
+    /* Graphic design is my passion*/
+    .graphicDesign{
+        font-weight: 400;
+
+    }
+
+
+
 
 
 
