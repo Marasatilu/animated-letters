@@ -68,6 +68,10 @@ h1 {
 
 .helloWorld {
     font-family: roboto;
+
+}
+
+.textContent{
     transform: scaleX(-1);
 }
 

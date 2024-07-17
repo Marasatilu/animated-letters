@@ -17,6 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('.invertButton').addEventListener('click', function() {
-        document.querySelector('.helloWorld').classList.toggle('mirror');
+        document.querySelector('.helloWorld .textContent').classList.toggle('mirror');
     });
 });
