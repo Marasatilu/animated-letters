@@ -5,16 +5,18 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
+/*h1 styles*/
 
 h1{
     font-family: "Roboto", sans-serif;
     font-weight: 900;
-    font-style: normal;
+    font-style:normal;
     font-size: 10rem;
 }
 
@@ -23,3 +25,17 @@ h1:hover{
     cursor: pointer;
 
 }
+
+/* Paragraph Styles*/
+
+
+
+/*buttons*/
+
+
+
+/*Footer*/
+
+
+
+/*Media queries*/
