@@ -68,6 +68,7 @@ h1 {
 
 .helloWorld {
     font-family: roboto;
+    transform: scaleX(-1);
 }
 
 .programmer {
@@ -102,3 +103,82 @@ h1 {
 .bounce {
     animation: bounce 1s;
 }
+
+
+/*Buttons*/
+
+.buttonSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    width: 10em;
+    height: 3em;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 900;
+    margin: 1em;
+    transition-duration: 0.4s;
+}
+
+.invertButton{
+    background-color: rgb(167, 0, 251);
+    color: white;
+
+}
+
+.invertButton:hover{
+    background-color: rgb(94, 240, 10);
+    color:black;
+    transform: scale(1.1);
+
+}
+
+.mirror {
+    transform: scaleX(1);
+}
+
+
+
+.randomizeButton{
+ background-color: orange;
+}
+
+.randomizeButton:hover{
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    transform: scale(1.1);
+}
+
+.kittyButton{
+background-color: blue;
+}
+
+.kittyButton:hover{
+    background-color: aqua;
+    transform: scale(1.1);
+}
+
+.panicButton{
+background-color:  rgb(255, 102, 0);
+font-size: 1.5em;
+box-shadow: 0 9px #999;
+}
+
+.panicButton:hover{
+    background-color: red;
+    color: white;
+    transform: scale(1.1);
+}
+
+.panicButton:active {
+    background-color: rgb(157, 0, 0);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+/*Media queries*/

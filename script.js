@@ -11,3 +11,12 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+
+//mirror effect
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.querySelector('.invertButton').addEventListener('click', function() {
+        document.querySelector('.helloWorld').classList.toggle('mirror');
+    });
+});
