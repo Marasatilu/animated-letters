@@ -187,6 +187,17 @@ button {
     transform: scale(1.1);
 }
 
+.undoButton {
+    background-color: rgb(20, 212, 14);
+    font-size: 1.3em;
+    box-shadow: 0 9px #999;
+}
+
+.undoButton:hover {
+    background-color: rgb(9, 129, 7);
+    transform: scale(1.1);
+}
+
 /*Pop-up*/
 
 .popup {
@@ -258,3 +269,5 @@ button {
 .fall {
     animation: fall 2s forwards;
 }
+
+
