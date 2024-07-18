@@ -61,11 +61,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-
-
-
     // Función para añadir clase 'fall' a elementos
     function addFallClass() {
+        
         spans.forEach(span => {
             span.style.animationDelay = `${Math.random() * 2}s`; // Retraso aleatorio entre 0 y 2 segundos
             span.classList.add('fall');
@@ -129,4 +127,15 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     
+
+
+
+
+
+
+
+
+
+
+
 });
