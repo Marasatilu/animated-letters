@@ -19,6 +19,7 @@ h1 {
     font-weight: 100;
     font-style: normal;
     font-size: 2rem;
+    margin-top: 2em;
 }
 
 /*Animated letters*/
@@ -27,6 +28,7 @@ h1 {
     position: relative;
     -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
     font-size: 60px;
+
 }
 
 .waviy span {
@@ -261,8 +263,8 @@ button {
 /* Falling text animation */
 @keyframes fall {
     to {
-        transform: translateY(100vh) rotate(360deg);
-        opacity: 0;
+        transform: translateY(100vh) rotate(240deg);
+        opacity: 1;
     }
 }
 
@@ -287,4 +289,19 @@ button {
         margin: 1em;
         text-align: center;
     }
+
+    h1{
+        font-size: 1.5em;
+        margin-left: 3.5em;
+        margin-bottom: -2em;
+    }
+
+    .waviy{
+        font-size: 42px;
+        margin: 2em;
+    }
+
+
+
+
 }
