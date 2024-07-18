@@ -1,5 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => {
     const spans = document.querySelectorAll('.waviy span');
+    const headers1 = document.querySelectorAll('h1');
+    const headers2 = document.querySelectorAll('h2');
+    const headers3 = document.querySelectorAll('h3');
+    const paragraphs = document.querySelectorAll('p');
+    const buttons = document.querySelectorAll('button:not(.panicButton)');
     
     spans.forEach(span => {
         span.addEventListener('mouseover', () => {
@@ -10,10 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
             span.classList.remove('bounce');
         });
     });
-});
 
-// Mirror effect
-document.addEventListener('DOMContentLoaded', function() {
+    // Mirror effect
     document.querySelector('.invertButton').addEventListener('click', function() {
         document.querySelector('.helloWorld .textContent').classList.toggle('mirror');
     });
@@ -49,5 +52,27 @@ document.addEventListener('DOMContentLoaded', function() {
 
     emailButton.addEventListener('click', function() {
         window.location.href = 'mailto:marasatilu@gmail.com?subject=Invitation for Coffee&body=Hi Mara,';
+    });
+
+    // Falling text effect
+    document.querySelector('.panicButton').addEventListener('click', function() {
+        spans.forEach(span => {
+            span.classList.add('fall');
+        });
+        headers1.forEach(h1 => {
+            h1.classList.add('fall');
+        });
+        headers2.forEach(h2 => {
+            h2.classList.add('fall');
+        });
+        headers3.forEach(h3 => {
+            h3.classList.add('fall');
+        });
+        paragraphs.forEach(p => {
+            p.classList.add('fall');
+        });
+        buttons.forEach(button => {
+            button.classList.add('fall');
+        });
     });
 });

@@ -247,5 +247,14 @@ button {
     text-align: center;
 }
 
+/* Falling text animation */
+@keyframes fall {
+    to {
+        transform: translateY(100vh) rotate(360deg);
+        opacity: 0;
+    }
+}
 
-/* Media Queries*/
+.fall {
+    animation: fall 2s forwards;
+}
