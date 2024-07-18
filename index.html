@@ -4,21 +4,19 @@
     <meta charset="UTF-8">
     <meta name="keywords" content="HTML, CSS, JavaScript, developer">
     <meta name="author" content="Mara Saturio" />
-    <meta
-    name="description"
-    content="This is just a silly text animation. If you want to know more email me at marasatilu@gmail.com. Im in an active search of work as a developer or UX/UI designer" />
+    <meta name="description" content="This is just a silly text animation. If you want to know more email me at marasatilu@gmail.com. Im in an active search of work as a developer or UX/UI designer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="style.css">
-     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,900;1,100;1,400&display=swap" rel="stylesheet">
-    <script src="../animated-letters/script.js"></script>
+    <script defer src="script.js"></script>
 
     <title>Animated letters</title>
 </head>
 <body>
     <section>
-        <h1> Mara Saturio</h1>
+        <h1>Mara Saturio</h1>
         <div class="waviy">
             <span style="--i:1">C</span>
             <span style="--i:2">R</span>
@@ -38,11 +36,8 @@
             <span style="--i:16">P</span>
             <span style="--i:17">E</span>
             <span style="--i:18">R</span>
-           </div>
-
-
+        </div>
     </section>
-   
 
     <section class="paragraph">
         <div class="helloWorld">
@@ -56,9 +51,9 @@
         </div>
         <div class="programmer">
             <div>
-                 <h2>Im a programmer</h2>
+                <h2>Im a programmer</h2>
                 <p>
-                    Basically a person who fixed a problem you don't know you have, in a way you don'tunderstand. Also turn coffee into code... please safe water, without it there's no coffee, and you dont want to see me angry... 
+                    Basically a person who fixed a problem you don't know you have, in a way you don't understand. Also turn coffee into code... please safe water, without it there's no coffee, and you dont want to see me angry...
                 </p>
             </div>
             <button class="coffeeButton">Take her coffee</button>
@@ -72,35 +67,30 @@
             </div>
             <button class="randomizeButton">Randomize color</button>
         </div>
-
     </section>
-    <section class="buttonSection">
 
+    <section class="buttonSection">
         <div>
             <button class="panicButton"> I'm bored...Kill all texts</button>
         </div>
-
     </section>
 
     <div class="popup-overlay"></div>
     <div class="popup">
         <span class="close">&times;</span>
-        <img src="coffee-image.jpg" alt="Coffee Image">
-        <h3>Did you drank my coffee?</h3>
-            <p> Okay... No problem, e-mail me and invite me a coffee and contract me as a developer</p>
-        <button class="emailButton">Of course!</button>
+        <div class="popupContainer">
+                <img class="coffeeImage" src="mug.png" alt="Coffee Image">
+                <h3>Did you drank my coffee?</h3>
+                <p> Okay... No problem, e-mail me, invite me a coffee and contract me as a developer</p>
+                <button class="emailButton">Of course!</button>
+        </div>
     </div>
 
-    
     <section>
         <div>
             <img src="" alt="">
         </div>
-        <div>
-
-        </div>
-
+        <div></div>
     </section>
-
 </body>
 </html>

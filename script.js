@@ -12,26 +12,20 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-
-//mirror effect
-
+// Mirror effect
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('.invertButton').addEventListener('click', function() {
         document.querySelector('.helloWorld .textContent').classList.toggle('mirror');
     });
 
-
-
-    //randomize color
-
+    // Randomize color
     document.querySelector('.randomizeButton').addEventListener('click', function() {
         const randomizeColorDiv = document.querySelector('.randomizeColor');
         const randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
         randomizeColorDiv.style.color = randomColor;
     });
 
-    //coffepop-up
-
+    // Coffee pop-up
     const coffeeButton = document.querySelector('.coffeeButton');
     const popup = document.querySelector('.popup');
     const popupOverlay = document.querySelector('.popup-overlay');
@@ -39,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const emailButton = document.querySelector('.emailButton');
 
     coffeeButton.addEventListener('click', function() {
-        popup.style.display = 'block';
+        popup.style.display = 'flex';
         popupOverlay.style.display = 'block';
     });
 
