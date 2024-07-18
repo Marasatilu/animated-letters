@@ -54,24 +54,30 @@ document.addEventListener('DOMContentLoaded', () => {
         window.location.href = 'mailto:marasatilu@gmail.com?subject=Invitation for Coffee&body=Hi Mara,';
     });
 
-    // Falling text effect
+    // Falling text effect with random delay
     document.querySelector('.panicButton').addEventListener('click', function() {
         spans.forEach(span => {
+            span.style.animationDelay = `${Math.random() * 2}s`; // Random delay between 0 and 2 seconds
             span.classList.add('fall');
         });
         headers1.forEach(h1 => {
+            h1.style.animationDelay = `${Math.random() * 2}s`; // Random delay between 0 and 2 seconds
             h1.classList.add('fall');
         });
         headers2.forEach(h2 => {
+            h2.style.animationDelay = `${Math.random() * 2}s`; // Random delay between 0 and 2 seconds
             h2.classList.add('fall');
         });
         headers3.forEach(h3 => {
+            h3.style.animationDelay = `${Math.random() * 2}s`; // Random delay between 0 and 2 seconds
             h3.classList.add('fall');
         });
         paragraphs.forEach(p => {
+            p.style.animationDelay = `${Math.random() * 2}s`; // Random delay between 0 and 2 seconds
             p.classList.add('fall');
         });
         buttons.forEach(button => {
+            button.style.animationDelay = `${Math.random() * 2}s`; // Random delay between 0 and 2 seconds
             button.classList.add('fall');
         });
     });
