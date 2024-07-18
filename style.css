@@ -273,6 +273,45 @@ button {
 
 }
 
+
+/*Footer*/
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: right;
+    background-color: #200442;
+    width: 100vw;
+    margin-top: 2em;
+
+    div{
+        padding: 2em;
+    }
+}
+
+.githubIcon{
+    width: 2em;
+}
+
+.githubIcon:hover{
+    transform: scale(1.2);
+    
+}
+
+
+.footerText {
+    font-size: small;
+    font-weight: 100;
+    font-style: italic;
+}
+
+
+
+
+
+
 /*Media queries*/
 
 
